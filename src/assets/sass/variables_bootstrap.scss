@@ -1,0 +1,12 @@
+
+/* El siguiente bloque se puede incluir en un custom.scss */ 
+
+/* realizar las personalizaciones */ 
+$tema-colores:( 
+    "info" : tomate , 
+    "peligro" : verde azulado
+ ) ; 
+
+
+/* import bootstrap para establecer cambios */ 
+@import  "~bootstrap/scss/bootstrap" ;
