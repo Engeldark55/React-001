@@ -9,13 +9,13 @@ class ComNav extends React.Component{
              
                <ul id="menu-lista">
                 <li class="lista">
-                    <a href="#" id="facebook"><img class="icons" src={facebook}alt=""></img> Facebook</a>
+                    <a href="https://www.facebook.com/luisangel.morenomorales/" id="facebook"><img class="icons" src={facebook}alt=""></img> Facebook</a>
                 </li>
                 <li class="lista">
-                    <a href="#" id="Instagram" ><img class="icons" src={instragram}alt=""></img> Instagram</a>
+                    <a href="https://www.instagram.com/morenomoralesluisangel/" id="Instagram" ><img class="icons" src={instragram}alt=""></img> Instagram</a>
                 </li>
                 <li class="lista">
-                    <a href="#" id="git">
+                    <a href="https://github.com/Engeldark55" id="git">
                     <img class="icons" src={git}alt=""></img>
                         Git
                         </a>

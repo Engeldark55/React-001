@@ -4,7 +4,9 @@ class ComFoo extends React.Component{
     render() {
         return (
             <div id="Foo-footer">
-                <h2>pie</h2>
+                <div id="contenido">
+                    <p>&copy; EngelDev 2023</p>
+                </div>
             </div>
         );
     }

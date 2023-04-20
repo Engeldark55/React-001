@@ -14,10 +14,10 @@ function App() {
           <ComHeader/>
           <ComNav/>
         </header>
-        <main id="cuerpo" class="box">
+        <main id="items" class="box">
         <ComItem/>
         </main>
-        <footer id="pie" class="box">
+        <footer id="pie">
         <ComFoo/>
         </footer>
       </div>
