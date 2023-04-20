@@ -1,0 +1,91 @@
+body{
+   
+    background-image: url(../img/fondos/Gotham.jpeg);
+
+}
+
+#cuerpo{
+    width: 1335px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+    border:1px solid white;
+}
+/*cabezera*/
+#cabezera{
+    width: 1335px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    
+}
+
+#img-header{
+    border:1px solid rgb(13, 158, 37);
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+}
+#img-header{
+    background-image:linear-gradient(to right,rgb(0 0 0 / .5),rgb(0 0 0 / .5)),
+     url(../img/dia-programador-recluit.jpg);
+ 
+}
+#img-header #box{
+    display: block;
+    position: relative;
+    color: white;
+    text-align: center;
+    top:50px;    
+}
+#img-header .texto{
+   font-size: 30px ;
+}
+
+#img-header img{
+    width: 150px;
+}
+
+/*menu*/
+#menu-header{
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    text-align: center;
+    height: 20px;
+    margin-top: -15px;
+}
+
+#menu-header ul{
+    padding-left: 20px;
+    background: transparent;
+}
+#menu-header ul li {
+    display: inline-block;
+    margin: 25px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+#menu-header ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: all 200ms;
+}
+#menu-header ul li #facebook:hover{
+    color: rgba(8, 162, 223, 0.76);
+    transform: scale(1.2,1.2);
+}
+#menu-header ul li #Instagram:hover{
+    color: rgb(204, 56, 223);
+    transform: scale(1.2,1.2);
+}
+#menu-header ul li #git:hover{
+    color: rgba(255, 0, 0, 0.616);
+    transform: scale(1.2,1.2);
+}
+#menu-header ul li a .icons{
+    width: 25px;
+}
